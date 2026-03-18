@@ -17,15 +17,7 @@ export function useSidebar() {
         { title: '站内信', url: '/treehole/message', icon: MessageSquare },
       ],
     },
-    {
-      title: '解密',
-      items: [
-        { title: '上传/解密', url: '/decrypt/upload', icon: Upload },
-        { title: '历史记录', url: '/decrypt/history', icon: History },
-        { title: '状态查询', url: '/decrypt/status', icon: Activity },
-      ],
-    },
-  ])
+      ])
 
   return {
     navData,
